@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lucida Sans;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: rgb(247, 242, 242);
+    color: black;
+}
+
+p {
+    font-size: 1.3em;
+    color: rgb(104, 89, 89);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5em 6em;
+    align-items: center;
+}
+
+.jagtech-logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.mobile-menu {
+    width: 2.5rem;
+    height: 1.5rem;
+    margin-left: 3em;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    padding-right: 4em;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+
+header a:hover {
+    font-weight: bold;
+}
+
+section {
+    padding: 2em;
+    margin: 0 3rem;
+}
+.title {
+    margin: 3em;
+}
+
+.title-heading {
+    font-size: 4.4em;
+    margin-bottom: 0.4em;
+}
+
+.title-paragraph {
+    font-size: 1.6em;
+}
+
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(100px, auto);
+    grid-gap: 5em 1em;
+    
+}
+
+.features-heading {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.features-paragraph {
+    margin: 2em 0;
+}
+
+.features-mail {
+    padding: 1em 2em;
+    border: .1em solid black;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.features-mail:focus {
+    outline: none;
+}
+
+.features-mail:hover {
+    background-color: black;
+    color: white;
+}
+
+.advert .container {
+    margin-top: 2em;
+    display: flex;
+}
+
+.advert .adv-img {
+    width: 40em;
+    height: 30em;
+    flex: 0 0 50%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.faq-heading{
+    margin: 1.6em 0;
+    font-size: 3.6em;
+    line-height: 1em;
+}
+
+.faq-heading-ask {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1354px) {
+    .container {
+        width: 1354px;
+        margin: 0 auto;
+    }
+
+    .features .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: minmax(100px, auto);
+        grid-gap: 5em 1em;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 1354x) {
+
+    /* .features .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: red;
+    } */
+    
+}
+/* Mobile*/
+/* @media screen and (max-width: 425px) {
+
+    .features .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: red;
+    }
+    
+} */
