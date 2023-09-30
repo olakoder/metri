@@ -183,6 +183,12 @@ nav ul {
     color: rgba(211, 211, 211, 0.992);
 }
 
+.met-cac {
+    background-color: lightgray;
+    padding: 1em 0;
+    border-radius: 10px;
+}
+
 .title {
     padding-bottom: 1em;
 }
